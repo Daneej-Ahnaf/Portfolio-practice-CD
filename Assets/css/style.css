@@ -14,26 +14,28 @@ header{
     align-items: center;
 }
 
-ul{
+header ul{
 
     display: flex;
     list-style-type: none;
     /* margin-left: 5px; */
 }
 
-ul li{
+ header ul li{
 
     margin: 0 30px;
 }
 
 
-ul li a{
+header ul li a{
 
    color: white;
    text-decoration: none;
+   font-weight: bold;
+   
 }
 
-ul li a:hover{
+header ul li a:hover{
     
    color: #12bdff;   
  }
@@ -68,12 +70,102 @@ header button{
     border-radius: 10px;
     color:#12bdff;
     cursor: pointer;
+    font-weight: bold;
+    
     
 }
 
 header button:hover{
    
     background-color: #12bdff;
+    color: white;
+    transition: 0.3s;
+    
+}
+
+
+/* hero section */
+
+
+
+main .hero-section{
+
+    display: flex;
+    background-color: #1b1f24;
+    color: white;
+    align-items: center;
+    padding: 40px 70px 0 110px;
+    
+}
+
+.hero-section-title{
+
+    font-size: 45px;
+    margin: 7px 0 15px 0;
+   
+}
+
+.social-links{
+
+    display: flex;
+    list-style-type: none;
+    margin: 25px 0 20px 0;
+}
+.social-links li{
+
+    margin: 0 20px 0 0;
+}
+.social-links li a{
+    font-size: 18px;
+
+    color: white;
+    text-decoration: none;
+ }
+ 
+ .social-links li a:hover{
+     
+    color: #12bdff;   
+  }
+
+  /* hero buttons */
+
+  .hero-buttons .btn-cv{
+    
+    padding: 8px 10px;
+   
+    background: transparent;
+    border: 1px solid #12bdff;
+    border-radius: 10px;
+    color:#12bdff;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.hero-buttons .btn-cv:hover{
+   
+    background-color: #12bdff;
+    color: white;
+    transition: 0.3s;
+    
+}
+
+.hero-buttons .btn-hireme{
+    
+    padding: 8px 10px;
+    margin-right: 10px;
+    background-color: #12bdff;
+    border:none;
+    border-radius: 10px;
+    color:white;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.hero-buttons .btn-hireme:hover{
+   
+    background-color: #0882b2;
     color: white;
     transition: 0.3s;
     
