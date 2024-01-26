@@ -4,6 +4,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 header{
 
     background-color: #1b1f24;
@@ -12,6 +16,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* position: fixed; */
 }
 
 header ul{
@@ -308,20 +313,6 @@ main .hero-section{
     text-align: center;
  }
 
- /* .contact-section input{
-
-    margin-bottom: 20px;
-    width: 450px;
-    
-    color: white;
-    background-color: #1b1f24;
-    border:1px solid #12bdff;
-    border-radius: 8px;
-    outline: none;
-    padding: 15px;
-
-    
- } */
 
  .contact-section input,textarea{
 
