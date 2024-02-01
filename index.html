@@ -11,19 +11,35 @@
     <!-- css link -->
     <link rel="stylesheet" href="./Assets/css/style.css">
 
+    <!-- aos cs link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     
 
     <title>Daneej-Portfolio</title>
 </head>
 <body>
       
-    <header>
-        <div>
+    <header >
+        <div data-aos="fade-right"  data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center">
             <span class="logo" >DANEEJ</span>
         </div>
 
         <div>
-            <ul>
+            <ul data-aos="fade-down"  data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center">
                 <li><a href="#hero-section">Home</a></li>
                 <li><a href="#about-section">About</a></li>
                 <li><a href="#mywork-section">My Works</a></li>
@@ -34,7 +50,13 @@
 
 
 
-        <div>
+        <div data-aos="fade-left"  data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center">
             <button>Download CV</button>
         </div>
     </header>
@@ -44,7 +66,12 @@
         <!-- hero section -->
 
         <section class="hero-section" id="hero-section">
-            <div class="hero-first-div">
+            <div class="hero-first-div"  data-aos="fade-right" data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false" >
                <h4>Hi There,</h4>
 
                <h2 class="hero-section-title" >I'm <span style="color: #12bdff;">Daneej Ahnaf</span></h2>
@@ -64,7 +91,12 @@
                </div>
             </div>
 
-            <div>
+            <div  data-aos="fade-left" data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false">
                 <img src="https://i.pinimg.com/originals/c4/16/2a/c4162abefda52fb14f8faf7438ec8808.png" alt="person image" width="360px" height="430px">
             </div>
         </section>
@@ -73,9 +105,19 @@
         <!-- about section -->
 
         <section class="about-section" id="about-section">
-            <img src="https://i.pinimg.com/originals/c4/16/2a/c4162abefda52fb14f8faf7438ec8808.png" alt="person image" width="300px" height="300px">
+            <img src="https://i.pinimg.com/originals/c4/16/2a/c4162abefda52fb14f8faf7438ec8808.png" alt="person image" width="300px" height="300px"  data-aos="fade-down" data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false">
 
-              <div class="details">
+              <div class="details"  data-aos="fade-right" data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false">
                 <h4>I'm a product Designer <br>&<span style="color: #12bdff;">Web Developer</span></h4>
 
                 <ul>
@@ -97,9 +139,19 @@
 
        <section class="mywork-section" id="mywork-section">
               
-        <h2 style="font-size: 30px;">My <span style="color: #12bdff;">Works</span></h2>
+        <h2 style="font-size: 30px;"  data-aos="fade-down" data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false">My <span style="color: #12bdff;">Works</span></h2>
 
-         <div class="work-section-items">
+         <div class="work-section-items"  data-aos="fade-up" data-aos-offset="200"
+         data-aos-delay="50"
+         data-aos-duration="1000"
+         data-aos-easing="ease-in-out"
+         data-aos-mirror="true"
+         data-aos-once="false">
 
             <div class="work-section-box">
                 <!-- icons here -->
@@ -213,9 +265,19 @@
          <!-- contact secton -->
          <section class="contact-section" id="contact-section">
 
-            <h2 style="font-size: 30px; margin-bottom: 20px;">Contact <span style="color: #12bdff;">Me</span></h2>
+            <h2 style="font-size: 30px; margin-bottom: 20px;"  data-aos="fade-down" data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false">Contact <span style="color: #12bdff;">Me</span></h2>
 
-            <form >
+            <form  data-aos="fade-up" data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false">
 
                 <div>
 
@@ -256,7 +318,11 @@
     </footer>
 
 
-
+       <!-- aos js link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 </html>
