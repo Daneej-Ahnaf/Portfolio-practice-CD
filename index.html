@@ -265,45 +265,45 @@
          <!-- contact secton -->
          <section class="contact-section" id="contact-section">
 
-            <h2 style="font-size: 30px; margin-bottom: 20px;"  data-aos="fade-down" data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false">Contact <span style="color: #12bdff;">Me</span></h2>
-
-            <form  data-aos="fade-up" data-aos-offset="200"
+            <form action="" id="form"  data-aos="fade-down" data-aos-offset="200"
             data-aos-delay="50"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="false">
 
-                <div>
-
-                    <input type="text" placeholder="Full Name">
-                   
-                </div>
-
-                <div>
-                    <input type="email" placeholder="Email">
-                </div>
-
-                <div>
-                    <!-- <input type="text" placeholder="Subject"> -->
-
-
-                    <textarea placeholder="Subject"></textarea>
-
-                </div>
-
-                <div>
-                    <button>
-                        Submit
-                    </button>
-                </div>
-
-            </form>
+   
+    <h1>Contact <span style=" color: #12bdff;">Me</span></h1>
+           
+                  <div class="input-group ">
+           
+                   <!-- <label for="username">UserName</label> -->
+                   <input type="text" id="username" placeholder="UserName" >
+                   <div class="error"></div>
+           
+                  </div>
+           
+                  <div class="input-group">
+           
+                   <!-- <label for="email">Email</label> -->
+                   <input type="text" id="email" placeholder="Email">
+                   <div class="error"></div>
+           
+                  </div>
+           
+           
+                  <div class="input-group">
+           
+                   <!-- <label for="Message">Message</label> -->
+                   <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Message"></textarea>
+                   <div class="error"></div>
+           
+                  </div>
+           
+                  <button type="submit">submit</button>
+           
+           
+             </form>
 
          </section>
 
@@ -320,9 +320,11 @@
 
        <!-- aos js link -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-      </script>
+
+    <!-- external script -->
+    <script src="./Assets/script.js"> </script>
+
+
 
 </body>
 </html>
